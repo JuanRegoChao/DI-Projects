@@ -7,7 +7,9 @@ namespace PagesDemo
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            //MainPage = new NavigationPage(new MainPage());
+            //MainPage = new FlyoutPageDemo();
+            MainPage = new TabbedPageDemo();
         }
     }
 }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagesDemo.TabbedPageDemo"
+             Title="TabbedPageDemo"
+            BackgroundColor="DarkGrey">
+
+    <ContentPage Title="Pestaña 1" IconImageSource="dotnet_bot.png">
+        <VerticalStackLayout>
+            <Label Text="Contenido pestaña 1"/>
+            <Image Source="dotnet_bot.png" WidthRequest="250" HeightRequest="250"/>
+        </VerticalStackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Pestaña 2">
+        <Label Text="Contenido pestaña 2"/>
+    </ContentPage>
+
+    <ContentPage Title="Pestaña 3">
+        <Label Text="Contenido pestaña 3"/>
+    </ContentPage>
+
+</TabbedPage>
